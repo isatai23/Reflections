@@ -1,4 +1,4 @@
-What happens when you initialize a repository? Why do you need to do it?
+﻿What happens when you initialize a repository? Why do you need to do it?
 
 Ans: When I run "git init", a .git folder is created with version control information
 
@@ -10,13 +10,25 @@ It groups files with the same logical concept
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+add all files with one logical change to the staging area at once and commit them together
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+1. Try new features that might break. Keep the master branch stable and always working
+2. create new versions
+3. Keep things organized when working with others
+
 How do the diagrams help you visualize the branch structure?
+
+A picture worth a thousand words.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+After merging two branches together, the new head has 2 parents. All commits on both branches are reachable.
+
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
+
+Automatic merge save a lot of time.
